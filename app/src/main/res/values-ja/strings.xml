@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPA Calculator</string>
+    <string name="GPhint">グレード・ポイント</string>
+    <string name="CAHint">クレディット・アフィニティー</string>
+    <string name="enterCA">グレード・ポイント</string>
+    <string name="enterGP">クレディット・アフィニティー</string>
+    <string name="gifted">グイフト</string>
+    <string name="highPro">高いプローベション</string>
+    <string name="lowPro">低いプローベション</string>
+    <string name="normal">正常</string>
+    <string name="retired">リタイアした</string>
+    <string name="submit">計算する</string>
+    <string name="error">Error</string>
+    <string name="errMessage"></string>
+    <string name="resultLabel">君の GPA は</string>
+    <string name="statusLabel">ステータスは</string>
+</resources>

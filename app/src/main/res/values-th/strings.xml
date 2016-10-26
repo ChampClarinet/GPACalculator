@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPA Calculator</string>
+    <string name="CAHint">หน่วยกิตรวม</string>
+    <string name="GPhint">เกรดคูณหน่วยกิตของทุกวิชา</string>
+    <string name="enterCA">Please enter your CA</string>
+    <string name="gifted">เรียนเด่น</string>
+    <string name="highPro">โปรสูง</string>
+    <string name="lowPro">โปรต่ำ</string>
+    <string name="normal">ปกติ</string>
+    <string name="retired">พ้นสภาพ</string>
+    <string name="submit">คำนวณ</string>
+    <string name="enterGP">Please enter your GP</string>
+    <string name="error">ผิดพลาด</string>
+    <string name="errMessage">โปรดตรวจสอบข้อมูลใหม่อีกคครั้ง</string>
+    <string name="statusLabel">สถานะของคุณคือ</string>
+    <string name="resultLabel">GPA ของคุณคือ</string>
+</resources>

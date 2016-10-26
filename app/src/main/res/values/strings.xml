@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GPA Calculator</string>
+    <string name="retired">Retired</string>
+    <string name="lowPro">Low Probation</string>
+    <string name="gifted">Gifted</string>
+    <string name="normal">Normal</string>
+    <string name="highPro">High Probation</string>
+    <string name="enterGP">Please enter your GP</string>
+    <string name="enterCA">Please enter your CA</string>
+    <string name="GPhint">Your Grade Point</string>
+    <string name="CAHint">Your Credit Affinity</string>
+    <string name="submit">CALCULATE</string>
+    <string name="error">Error</string>
+    <string name="errMessage">Invalid parameter.\nPlease check your GP and CA again</string>
+    <string name="resultLabel">Your GPA is</string>
+    <string name="statusLabel">Your status is</string>
+</resources>
