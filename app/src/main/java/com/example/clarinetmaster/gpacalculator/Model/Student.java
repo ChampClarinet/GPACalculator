@@ -29,12 +29,15 @@ public class Student {
     }
 
     public String getGPA() {
-        String result =  Double.toString(GPA);
-        return result.substring(0, result.indexOf('.') + 3);
+        return Double.toString(GPA);
     }
 
     private void calculateGPA(){
         this.GPA = GP/CA;
+        if(GP % CA != 0){
+            GPA = (double) Math.round(GPA*100) / 100.0;
+        }
+        Log.d("GPA", Double.toString(GPA));
     }
 
     public int getStatus(){
