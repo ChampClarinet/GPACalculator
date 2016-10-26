@@ -38,6 +38,7 @@
             android:id="@+id/inputGP"
             android:hint="@string/GPhint"
             android:background="#FFFFFF"
+            android:imeOptions="actionGo"
             android:textSize="@dimen/label" />
 
         <TextView
@@ -54,6 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="phone"
+            android:imeOptions="actionGo"
             android:ems="10"
             android:id="@+id/inputCA"
             android:hint="@string/CAHint"

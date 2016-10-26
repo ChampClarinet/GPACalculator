@@ -7,6 +7,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,8 +23,35 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         editTextGP = (EditText) findViewById(R.id.inputGP);
+        editTextGP.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                if (event.getAction() == KeyEvent.ACTION_DOWN)
+                    if ((keyCode == KeyEvent.KEYCODE_DPAD_CENTER) ||
+                            (keyCode == KeyEvent.KEYCODE_ENTER)) {
+                        onClick(v);
+                        return true;
+                    }
+                return false;
+            }
+        });
+
         editTextCA = (EditText) findViewById(R.id.inputCA);
+        editTextCA.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                if(event.getAction() == KeyEvent.ACTION_DOWN)
+                    if((keyCode == KeyEvent.KEYCODE_DPAD_CENTER) ||
+                            keyCode == KeyEvent.KEYCODE_ENTER){
+                        onClick(v);
+                        return true;
+                    }
+                return false;
+            }
+        });
+
         Button submit = (Button) findViewById(R.id.button);
         submit.setOnClickListener(this);
     }
